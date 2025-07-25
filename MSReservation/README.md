@@ -16,6 +16,10 @@ Residents do not have insertion, update, or removal endpoints because their data
 
 Rentable areas do not have insertion, update, or removal endpoints because their data is replicated from another microservice (MSCondominium)
 
+You can see the documentation of the endpoints with Swagger on this URL (with containers running):
+    
+    http://localhost:8082/swagger-ui/index.html
+
 Implementation details are as follows:
 - OpenJDK 21
 - SpringFramework 3.4.4

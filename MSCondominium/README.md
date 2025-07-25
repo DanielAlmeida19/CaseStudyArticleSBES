@@ -13,6 +13,10 @@ The microservice represented by the class diagram provides the following endpoin
 
 Residents do not have insertion, update, or removal endpoints because their data is replicated from another microservice (MSResident), mainly indicated by the white background of the class, denoting that it is not part of this microservice.
 
+You can see the documentation of the endpoints with Swagger on this URL (with containers running):
+    
+    http://localhost:8080/swagger-ui/index.html
+
 Implementation details are as follows:
 - OpenJDK 21
 - SpringFramework 3.4.4
