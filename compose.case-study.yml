@@ -51,7 +51,7 @@ services:
   postgres:
     hostname: postgres
     container_name: postgres
-    image: postgres
+    image: postgres:14
     ports:
       - "5432:5432"
     environment:
@@ -65,7 +65,7 @@ services:
   mariadb:
     hostname: mariadb
     container_name: mariadb
-    image: mariadb
+    image: mariadb:10.6.22-ubi9
     ports:
       - "3306:3306"
     environment:
@@ -78,7 +78,7 @@ services:
 
   mongodb:
     container_name: mongodb
-    image: mongo
+    image: mongo:8.0
     ports:
       - "27017:27017"
     environment:
